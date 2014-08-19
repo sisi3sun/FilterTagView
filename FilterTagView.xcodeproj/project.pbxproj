@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1B9A1519A329F200CD2F51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1B9A1419A329F200CD2F51 /* Foundation.framework */; };
+		EF1B9A1719A329F200CD2F51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1B9A1619A329F200CD2F51 /* CoreGraphics.framework */; };
+		EF1B9A1919A329F200CD2F51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1B9A1819A329F200CD2F51 /* UIKit.framework */; };
+		EF1B9A1F19A329F200CD2F51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF1B9A1D19A329F200CD2F51 /* InfoPlist.strings */; };
+		EF1B9A2119A329F200CD2F51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B9A2019A329F200CD2F51 /* main.m */; };
+		EF1B9A2519A329F200CD2F51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B9A2419A329F200CD2F51 /* AppDelegate.m */; };
+		EF1B9A2719A329F200CD2F51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1B9A2619A329F200CD2F51 /* Images.xcassets */; };
+		EF1B9A2E19A329F200CD2F51 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1B9A2D19A329F200CD2F51 /* XCTest.framework */; };
+		EF1B9A2F19A329F200CD2F51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1B9A1419A329F200CD2F51 /* Foundation.framework */; };
+		EF1B9A3019A329F200CD2F51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1B9A1819A329F200CD2F51 /* UIKit.framework */; };
+		EF1B9A3819A329F200CD2F51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF1B9A3619A329F200CD2F51 /* InfoPlist.strings */; };
+		EF1B9A3A19A329F200CD2F51 /* FilterTagViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B9A3919A329F200CD2F51 /* FilterTagViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF1B9A3119A329F200CD2F51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1B9A0919A329F200CD2F51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1B9A1019A329F200CD2F51;
+			remoteInfo = FilterTagView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF1B9A1119A329F200CD2F51 /* FilterTagView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilterTagView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1B9A1419A329F200CD2F51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF1B9A1619A329F200CD2F51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF1B9A1819A329F200CD2F51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF1B9A1C19A329F200CD2F51 /* FilterTagView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FilterTagView-Info.plist"; sourceTree = "<group>"; };
+		EF1B9A1E19A329F200CD2F51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF1B9A2019A329F200CD2F51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF1B9A2219A329F200CD2F51 /* FilterTagView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FilterTagView-Prefix.pch"; sourceTree = "<group>"; };
+		EF1B9A2319A329F200CD2F51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF1B9A2419A329F200CD2F51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF1B9A2619A329F200CD2F51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF1B9A2C19A329F200CD2F51 /* FilterTagViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilterTagViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1B9A2D19A329F200CD2F51 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF1B9A3519A329F200CD2F51 /* FilterTagViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FilterTagViewTests-Info.plist"; sourceTree = "<group>"; };
+		EF1B9A3719A329F200CD2F51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF1B9A3919A329F200CD2F51 /* FilterTagViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterTagViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF1B9A0E19A329F200CD2F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1B9A1719A329F200CD2F51 /* CoreGraphics.framework in Frameworks */,
+				EF1B9A1919A329F200CD2F51 /* UIKit.framework in Frameworks */,
+				EF1B9A1519A329F200CD2F51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1B9A2919A329F200CD2F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1B9A2E19A329F200CD2F51 /* XCTest.framework in Frameworks */,
+				EF1B9A3019A329F200CD2F51 /* UIKit.framework in Frameworks */,
+				EF1B9A2F19A329F200CD2F51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF1B9A0819A329F200CD2F51 = {
+			isa = PBXGroup;
+			children = (
+				EF1B9A1A19A329F200CD2F51 /* FilterTagView */,
+				EF1B9A3319A329F200CD2F51 /* FilterTagViewTests */,
+				EF1B9A1319A329F200CD2F51 /* Frameworks */,
+				EF1B9A1219A329F200CD2F51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF1B9A1219A329F200CD2F51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF1B9A1119A329F200CD2F51 /* FilterTagView.app */,
+				EF1B9A2C19A329F200CD2F51 /* FilterTagViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1B9A1319A329F200CD2F51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF1B9A1419A329F200CD2F51 /* Foundation.framework */,
+				EF1B9A1619A329F200CD2F51 /* CoreGraphics.framework */,
+				EF1B9A1819A329F200CD2F51 /* UIKit.framework */,
+				EF1B9A2D19A329F200CD2F51 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF1B9A1A19A329F200CD2F51 /* FilterTagView */ = {
+			isa = PBXGroup;
+			children = (
+				EF1B9A2319A329F200CD2F51 /* AppDelegate.h */,
+				EF1B9A2419A329F200CD2F51 /* AppDelegate.m */,
+				EF1B9A2619A329F200CD2F51 /* Images.xcassets */,
+				EF1B9A1B19A329F200CD2F51 /* Supporting Files */,
+			);
+			path = FilterTagView;
+			sourceTree = "<group>";
+		};
+		EF1B9A1B19A329F200CD2F51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF1B9A1C19A329F200CD2F51 /* FilterTagView-Info.plist */,
+				EF1B9A1D19A329F200CD2F51 /* InfoPlist.strings */,
+				EF1B9A2019A329F200CD2F51 /* main.m */,
+				EF1B9A2219A329F200CD2F51 /* FilterTagView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF1B9A3319A329F200CD2F51 /* FilterTagViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1B9A3919A329F200CD2F51 /* FilterTagViewTests.m */,
+				EF1B9A3419A329F200CD2F51 /* Supporting Files */,
+			);
+			path = FilterTagViewTests;
+			sourceTree = "<group>";
+		};
+		EF1B9A3419A329F200CD2F51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF1B9A3519A329F200CD2F51 /* FilterTagViewTests-Info.plist */,
+				EF1B9A3619A329F200CD2F51 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF1B9A1019A329F200CD2F51 /* FilterTagView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1B9A3D19A329F200CD2F51 /* Build configuration list for PBXNativeTarget "FilterTagView" */;
+			buildPhases = (
+				EF1B9A0D19A329F200CD2F51 /* Sources */,
+				EF1B9A0E19A329F200CD2F51 /* Frameworks */,
+				EF1B9A0F19A329F200CD2F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilterTagView;
+			productName = FilterTagView;
+			productReference = EF1B9A1119A329F200CD2F51 /* FilterTagView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF1B9A2B19A329F200CD2F51 /* FilterTagViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1B9A4019A329F200CD2F51 /* Build configuration list for PBXNativeTarget "FilterTagViewTests" */;
+			buildPhases = (
+				EF1B9A2819A329F200CD2F51 /* Sources */,
+				EF1B9A2919A329F200CD2F51 /* Frameworks */,
+				EF1B9A2A19A329F200CD2F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1B9A3219A329F200CD2F51 /* PBXTargetDependency */,
+			);
+			name = FilterTagViewTests;
+			productName = FilterTagViewTests;
+			productReference = EF1B9A2C19A329F200CD2F51 /* FilterTagViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF1B9A0919A329F200CD2F51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sisi3sun;
+				TargetAttributes = {
+					EF1B9A2B19A329F200CD2F51 = {
+						TestTargetID = EF1B9A1019A329F200CD2F51;
+					};
+				};
+			};
+			buildConfigurationList = EF1B9A0C19A329F200CD2F51 /* Build configuration list for PBXProject "FilterTagView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF1B9A0819A329F200CD2F51;
+			productRefGroup = EF1B9A1219A329F200CD2F51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF1B9A1019A329F200CD2F51 /* FilterTagView */,
+				EF1B9A2B19A329F200CD2F51 /* FilterTagViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF1B9A0F19A329F200CD2F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1B9A1F19A329F200CD2F51 /* InfoPlist.strings in Resources */,
+				EF1B9A2719A329F200CD2F51 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1B9A2A19A329F200CD2F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1B9A3819A329F200CD2F51 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF1B9A0D19A329F200CD2F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1B9A2519A329F200CD2F51 /* AppDelegate.m in Sources */,
+				EF1B9A2119A329F200CD2F51 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1B9A2819A329F200CD2F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1B9A3A19A329F200CD2F51 /* FilterTagViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF1B9A3219A329F200CD2F51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1B9A1019A329F200CD2F51 /* FilterTagView */;
+			targetProxy = EF1B9A3119A329F200CD2F51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF1B9A1D19A329F200CD2F51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1B9A1E19A329F200CD2F51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF1B9A3619A329F200CD2F51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1B9A3719A329F200CD2F51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF1B9A3B19A329F200CD2F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF1B9A3C19A329F200CD2F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF1B9A3E19A329F200CD2F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilterTagView/FilterTagView-Prefix.pch";
+				INFOPLIST_FILE = "FilterTagView/FilterTagView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF1B9A3F19A329F200CD2F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilterTagView/FilterTagView-Prefix.pch";
+				INFOPLIST_FILE = "FilterTagView/FilterTagView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF1B9A4119A329F200CD2F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FilterTagView.app/FilterTagView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilterTagView/FilterTagView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FilterTagViewTests/FilterTagViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF1B9A4219A329F200CD2F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FilterTagView.app/FilterTagView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilterTagView/FilterTagView-Prefix.pch";
+				INFOPLIST_FILE = "FilterTagViewTests/FilterTagViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF1B9A0C19A329F200CD2F51 /* Build configuration list for PBXProject "FilterTagView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1B9A3B19A329F200CD2F51 /* Debug */,
+				EF1B9A3C19A329F200CD2F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1B9A3D19A329F200CD2F51 /* Build configuration list for PBXNativeTarget "FilterTagView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1B9A3E19A329F200CD2F51 /* Debug */,
+				EF1B9A3F19A329F200CD2F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF1B9A4019A329F200CD2F51 /* Build configuration list for PBXNativeTarget "FilterTagViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1B9A4119A329F200CD2F51 /* Debug */,
+				EF1B9A4219A329F200CD2F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF1B9A0919A329F200CD2F51 /* Project object */;
+}
